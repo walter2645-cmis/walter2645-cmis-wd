@@ -1,0 +1,8 @@
+start terminal by clicking on the icon on the taskbar that has a black box in the middle, it should be the second small icon counting from the left.
+clone your repository by typing: git clone --config="http.proxy=http://your-network-username:your-network-password@192.168.2.1:8080" https://github.com/your-github-username/your-github-repository-name.git
+create a new file by typing: gedit <file name> & 
+type some stuff in the file and then save it by pressing "ctrl S"
+add the file to commit by typing: git add <file name>
+commit the file for pushing by typing: git commit -m "Commit Comment"
+push the file (saves onto your repository) onto github by typing: git push
+enter your username and password and press enter (note that the password will not show up on the screen).
