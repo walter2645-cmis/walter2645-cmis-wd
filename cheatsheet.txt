@@ -13,3 +13,16 @@ git clone --config="http.proxy=http://walter2645:Boobless69@192.168.2.1:8080" ht
 git add <file name>: adds file for commits
 git commit -m "Commit Comment": commits files for push
 git push: saves files to github
+
+sftp Commands
+
+sftp walter2645@cmis-hsteacher - go to production server
+ls - Lists contents of current directory
+cd - go home
+pwd - view current folder directory
+put ! in front of a command with to execute it on the directory (folder) you entered sftp in
+put <filename> - upload a file to production server
+rm <filename> - remove a file from production server
+put * - upload all files to production server
+rm * - remove all file from production server
+get <filename> - upload a file
