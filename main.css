@@ -1,0 +1,20 @@
+h1 {
+	color: #FF33FF;
+	background-color: black;
+	font-family: "Arial Black";
+}
+h2 {
+	color: purple;
+	background-color: gray;
+	font-family: "Comic Sans MS";
+}
+p {
+	color: blue;
+	background-color: yellow;
+	font-family: "Lucida Sans Unicode";
+}
+footer {
+	color: red;
+	background-color: green;
+	font-family: "Trebuchet MS";
+}
