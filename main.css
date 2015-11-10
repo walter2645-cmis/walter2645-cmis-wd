@@ -1,20 +1,60 @@
+body {
+	background-color: #80D9FF;
+}
 h1 {
 	color: #FF33FF;
 	background-color: black;
 	font-family: "Arial Black";
+	font-style: italic;
+	font-size: 250%;
+	border-style: groove;
+	border-width: 10px;
+	border-color: #FF33FF;
+	text-shadow: 3px 3px purple;
 }
 h2 {
 	color: purple;
 	background-color: gray;
 	font-family: "Comic Sans MS";
+	font-style: oblique;
+	border-style: ridge;
+	border-width: 5px;
+	border-color: purple;
+	text-shadow: 2px 2px #FF33FF;
 }
 p {
 	color: blue;
 	background-color: yellow;
 	font-family: "Lucida Sans Unicode";
+	border-style: inset;
+	border-width: 3px;
+	border-color: blue;
+	text-shadow: 1px 1px red;
 }
 footer {
 	color: red;
 	background-color: green;
 	font-family: "Trebuchet MS";
+	border-style: outset;
+	border-width: 3px;
+	border-color: red;
+	text-shadow: 1px 1px yellow;
 }
+/*
+Requirements
+
+*Create a new file called "main.css"
+*Add a link element to the head of your index.html file
+<link rel="stylesheet" href="main.css" type="text/css">
+*Edit the main.css file
+*add a declaration for each element in the body of your index.html file.
+*add properties to style the background color of each element.
+*add properties to style the border of each element.
+*add properties to style the font of each element.
+*View your index.html in the development server.
+*Validate your index.html file.
+*Validate your main.css file.
+*Copy this list of requirements and paste it into your "main.css" file as a css comment. Put an asterisk in front of each one that you did.
+*Upload to the production server with sftp.
+*View your index.html in the production server.
+*/
