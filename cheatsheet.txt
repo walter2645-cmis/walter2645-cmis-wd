@@ -26,3 +26,7 @@ rm <filename> - remove a file from production server
 put * - upload all files to production server
 rm * - remove all file from production server
 get <filename> - upload a file
+
+Browser Links
+http://cmis-hsteacher/~walter2645/ - view production server content
+localhost:8000 view content of local server
