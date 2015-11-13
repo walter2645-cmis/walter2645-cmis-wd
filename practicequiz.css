@@ -1,0 +1,37 @@
+h2 {
+	background-color: green;
+	color: yellow;
+	font-family: "Impact";
+	font-style: italic;
+	margin-bottom: 0cm;
+}
+h3 {
+	color: purple;
+	background-color: yellow;
+	font-family: "Impact";
+	font-style: italic;
+	margin-top: 0cm;
+	font-size: 80%;
+	border-top-style: solid;
+	border-top-color: yellow;
+	border-top-width: 20px;
+
+}
+h4 {
+	background-color: blue;
+	color: yellow;
+	font-family: "Arial";
+}
+h5 {
+	font-size: 120%;
+	font-family: "Arial";
+	background-color: orange;
+	color: blue;
+}
+p {
+	color: purple;
+}
+main {
+	border-style: dashed;
+	border-color: red;
+}
