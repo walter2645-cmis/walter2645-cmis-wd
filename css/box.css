@@ -1,0 +1,7 @@
+html h2{
+	background-color: purple;
+	width: 300px;
+	padding: 25px;
+	border: 10px double #FF33FF;
+	margin: 10px;
+}
