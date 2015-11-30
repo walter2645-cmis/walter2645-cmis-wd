@@ -1,7 +1,36 @@
-html h2{
-	background-color: purple;
-	width: 300px;
-	padding: 25px;
+html {
+	background-image: url("../test/Grumpy-Cat.jpg");
+	background-color: black;
+}
+main h2 {
+	background-color: yellow;
+	padding: 1px;
 	border: 10px double #FF33FF;
-	margin: 10px;
+	margin: 5px auto;
+}
+tr > th {
+	border: 1px ridge #FF33FF;
+}
+tr > td {
+	border: 1px ridge #FF33FF;
+}
+footer > p + article {
+	background-color: black;
+	width: 69%;
+	text-align: center;
+	color: white;
+	margin: auto;
+}
+li > a {
+	color: purple;
+}
+header > h1 {
+	text-align: center;
+	width: 69%;
+	margin: auto;
+}
+html {
+	color: #FF33FF;
+	font-weight: bold;
+	background-repeat: no-repeat;
 }
