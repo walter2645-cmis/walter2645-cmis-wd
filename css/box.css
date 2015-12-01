@@ -3,26 +3,29 @@ html {
 	background-color: black;
 }
 main h2 {
-	background-color: yellow;
+	background-color: #E6E6FA;
 	padding: 1px;
 	border: 10px double #FF33FF;
 	margin: 5px auto;
 }
 tr > th {
-	border: 1px ridge #FF33FF;
+	border: 3px ridge #FF33FF;
+	background-color: #E6E6FA;
 }
 tr > td {
-	border: 1px ridge #FF33FF;
+	border: 2px ridge #FF33FF;
+	background-color: #E6E6FA;
 }
-footer > p + article {
+footer > p + p {
 	background-color: black;
 	width: 69%;
 	text-align: center;
 	color: white;
 	margin: auto;
+	border-width: 0px;
 }
 li > a {
-	color: purple;
+	color: yellow;
 }
 header > h1 {
 	text-align: center;
@@ -33,4 +36,7 @@ html {
 	color: #FF33FF;
 	font-weight: bold;
 	background-repeat: no-repeat;
+}
+footer > p {
+	border-width: 0px;
 }
