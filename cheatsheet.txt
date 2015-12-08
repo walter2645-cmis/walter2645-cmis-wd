@@ -34,3 +34,16 @@ get <filename> - upload a file
 Browser Links
 http://cmis-hsteacher/~walter2645/ - view production server content
 localhost:8000 view content of local server
+
+finals notes
+outline: dotted red 1px
+main margin-left is 1px wider than nav pixel value
+float (apply to element on top) valuesL: left or right
+img {
+ is image selector
+}
+footer {
+	clear:both; (or only left/right)
+}
+<br> (br is line divider)
+ class="clear" put in element to make it unique for css declarations.
