@@ -1,0 +1,16 @@
+* {
+	outline: dotted red 1px;
+}
+nav {
+	width: 130px;
+	float: left;
+}
+main {
+	margin-left: 131px;
+}
+img {
+	float: right;
+}
+footer {
+	clear: both;
+}
