@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
+@import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
 * {
 	outline: dotted red 1px;
 }
@@ -7,6 +9,9 @@ nav {
 }
 main {
 	margin-left: 131px;
+}
+h3 {
+	clear: right;
 }
 img {
 	float: right;
