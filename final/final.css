@@ -1,21 +1,73 @@
 @import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
 @import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
-* {
-	outline: dotted red 1px;
+@import url(https://fonts.googleapis.com/css?family=Orbitron);
+@import url(https://fonts.googleapis.com/css?family=Architects+Daughter);
+body {
+	background-image: url("images/nyan.gif");
+	background-color: #A824A8;
 }
 nav {
-	width: 130px;
+	width: 140px;
 	float: left;
 }
+nav ul {
+	background-color: #E1CEF9;
+	color: #834FC7;
+	border: solid #E53167 3px;
+}
 main {
-	margin-left: 131px;
+	margin-left: 141px;
+}
+h1 {
+	font-family:"Kaushan Script";
+	background-color: #E1CEF9;
+	color: #834FC7;
+	border: solid #E53167 3px;
+}
+h2 {
+	font-family:"Kaushan Script";
+	background-color: #E1CEF9;
+	color: #834FC7;
+	border: solid #E53167 3px;
+}
+article {
+	background-color: #F9CAF9;
+	border: solid #E53167 3px;
+}
+br {
+	clear: right;
 }
 h3 {
-	clear: right;
+	font-family:"Shadows Into Light";
+	font-weight: bold;
+	font-size: 130%;
+	color: #A824A8;
+}
+p {
+	font-family:"Architects Daughter";
+	font-size: 110%;
+	color: #6731AF;
+	background-color: #F9CAF9;
+	border: solid #E53167 3px;
+}
+li {
+	font-family:"Architects Daughter";
+	font-size: 110%;
+	color: #6731AF;
 }
 img {
 	float: right;
+	border: solid #E53167 3px;
 }
 footer {
 	clear: both;
+	font-family:"Orbitron";
+	background-color: #F9CAF9;
+	color: #D966D9;
+	border: solid #E53167 3px;
+}
+footer p {
+	font-family:"Orbitron";
+	color: #D966D9;
+	border: none;
 }
